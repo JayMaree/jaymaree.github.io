@@ -1,0 +1,15 @@
+.bg-blue {
+    background-color: #01d0ca !important;
+  }
+
+.container-fluid-max {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.container-carousel {
+    width: 100%;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
