@@ -17,3 +17,21 @@
     padding-right:0;
     padding-left:0;
 }
+
+@media (max-width: 768px) {
+  .col-lg {
+    /* max-width: 540px; */
+    display: none;
+  }
+@media (max-width: 768px) {
+  .hide-non-desktop{
+    /* max-width: 540px; */
+    display: none;
+  }
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
