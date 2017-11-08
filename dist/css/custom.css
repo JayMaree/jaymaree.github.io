@@ -17,19 +17,6 @@
     padding-right:0;
     padding-left:0;
 }
-
-@media (max-width: 768px) {
-  .col-lg {
-    /* max-width: 540px; */
-    display: none;
-  }
-}
-@media (max-width: 768px) {
-  .hide-non-desktop{
-    /* max-width: 540px; */
-    display: none;
-  }
-}
 .business-header {
   height: 50vh;
   min-height: 300px;
@@ -49,4 +36,23 @@
   color: #fff;
   background-color: #07a19c;
   border-color: #07a19c;
+}
+
+/* Media modificaties */
+@media (max-width: 768px) {
+  .col-lg {
+    /* max-width: 540px; */
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .hide-non-desktop{
+    /* max-width: 540px; */
+    display: none;
+  }
+}
+@media (max-width : 768px) {
+ .tooltip{
+  display: none;
+ }
 }
